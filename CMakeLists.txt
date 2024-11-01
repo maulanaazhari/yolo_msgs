@@ -20,6 +20,7 @@ add_message_files(
   KeyPoint3DArray.msg
   Detection.msg
   DetectionArray.msg
+  PoseCovArray.msg
 )
 
 generate_messages(DEPENDENCIES geometry_msgs std_msgs)
